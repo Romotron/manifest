@@ -12,14 +12,14 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="efidroid/build">
+  <project path="build" name="efidroid/build" revision="1a8d10ad9758f682644cb1bf34dabdda97c470b3">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
   <project path="uefi/edk2packages/EFIDroidGPLPkg" name="efidroid/uefi_edk2packages_EFIDroidGPLPkg" />
-  <project path="uefi/edk2packages/EFIDroidLKLPkg" name="efidroid/uefi_edk2packages_EFIDroidLKLPkg" />
+  <project path="uefi/edk2packages/EFIDroidLKLPkg" name="efidroid/uefi_edk2packages_EFIDroidLKLPkg" revision="3fba514b419f7513118311aef8d8dc4332b90be9" />
   <project path="uefi/edk2packages/EFIDroidPkg" name="efidroid/uefi_edk2packages_EFIDroidPkg" />
   <project path="uefi/lkl" name="efidroid/lkl-linux" />
 
