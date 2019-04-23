@@ -12,7 +12,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="efidroid/build" revision="1a8d10ad9758f682644cb1bf34dabdda97c470b3">
+  <project path="build" name="efidroid/build" revision="64f06f0457ea90cccd14c3fa9d0039d8ccb9a3b0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
